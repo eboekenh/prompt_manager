@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="text-center py-10">
+  <h1 class="text-3xl font-bold">Prompt Manager’a Hoş Geldiniz 👋</h1>
+  <p class="mt-4 text-gray-600">Devam etmek için giriş yapabilir veya kayıt olabilirsiniz.</p>
+  <div class="mt-6 space-x-4">
+    <a href="{{ url_for('login') }}" class="bg-blue-500 text-white px-4 py-2 rounded">Giriş</a>
+    <a href="{{ url_for('register') }}" class="bg-green-500 text-white px-4 py-2 rounded">Kayıt Ol</a>
+  </div>
+</div>
+{% endblock %}

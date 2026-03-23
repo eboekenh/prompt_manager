@@ -1,1 +1,12 @@
 venv/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.DS_Store
